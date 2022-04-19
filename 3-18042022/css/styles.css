@@ -1,0 +1,11 @@
+.titulo{
+    padding: 10px;
+}
+
+
+span{
+    padding: 10px;
+    border: 1px solid blue;
+    display: inline-block;
+    width: 100px;
+}
