@@ -40,7 +40,7 @@ fetch("https://gbfs.citibikenyc.com/gbfs/en/station_information.json")
         var h2 = document.createElement("h2");
         var p = document.createElement("p");
         h2.innerHTML = info.name;
-        p.innerHTML = info.stations_type;
+        p.innerHTML = info.station_type;
         itens.appendChild(h2);
         itens.appendChild(p);
     })
